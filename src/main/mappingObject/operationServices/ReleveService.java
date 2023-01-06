@@ -3,6 +3,7 @@ package operationServices;
 import jakarta.xml.bind.annotation.*;
 
 import java.util.Date;
+
 @XmlRootElement(name = "releve")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class ReleveService {
@@ -14,9 +15,11 @@ public class ReleveService {
     private double solde;
     @XmlElement
     private Operations operations;
+
     public ReleveService() {
 
     }
+
     public ReleveService(String rib, Date dateReleve, double solde, Operations operations) {
         this.setRib(rib);
         this.setDateReleve(dateReleve);
@@ -58,12 +61,12 @@ public class ReleveService {
 
     public String toString() {
         System.out.println("Releve{" +
-            "rib='" + rib + '\'' +
-                    ", dateReleve=" + dateReleve +
-                    ", solde=" + solde +"}"
-                    );
+                "rib='" + rib + '\'' +
+                ", dateReleve=" + dateReleve +
+                ", solde=" + solde + "}"
+        );
         System.out.println("Operations : ");
-        for (Operation op : this.getOperations().getOperations()){
+        for (Operation op : this.getOperations().getOperations()) {
             System.out.println(op.toString());
         }
         return null;
