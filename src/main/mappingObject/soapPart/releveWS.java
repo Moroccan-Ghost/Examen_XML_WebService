@@ -50,7 +50,9 @@ public class releveWS {
         }
         ops.setDateDebut(this.releve.getOperations().getDateDebut());
         ops.setDateFin(this.releve.getOperations().getDateFin());
-        return ops;
+        ReleveService rv = new ReleveService();
+        rv.setOperations(ops);
+        return rv.getOperations();
     }
     @WebMethod
     public Operations getDebitOperations(){
@@ -62,7 +64,9 @@ public class releveWS {
         }
         ops.setDateDebut(this.releve.getOperations().getDateDebut());
         ops.setDateFin(this.releve.getOperations().getDateFin());
-        return ops;
+        ReleveService rv = new ReleveService();
+        rv.setOperations(ops);
+        return rv.getOperations();
     }
 
 }
