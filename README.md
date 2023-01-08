@@ -65,7 +65,9 @@
     <ul>
         <li>
             WebService : <a href="src/main/mappingObject/soapPart/releveWS.java">HERE</a>
-            <img src="src/screens/Part3/releveService.PNG">
+            <img src="src/screens/Part3/releveWS1.PNG">
+            <img src="src/screens/Part3/releveWS2.PNG">
+            <img src="src/screens/Part3/releveWS3.PNG">
         </li>
         <li>
             Server : <a href="src/main/mappingObject/soapPart/Server.java">HERE</a>
@@ -80,6 +82,18 @@
             Client : <a href="src/main/mappingObject/soapPart/Client.java">HERE</a>
             <img src="src/screens/Part3/client.PNG">
             <img src="src/screens/Part3/client_test.PNG">
+        </li>
+        <li>
+            SOAPUI test : 
+            <img src="src/screens/Part3/soapui/soapui.PNG">
+            getOperations : 
+            <img src="src/screens/Part3/soapui/soapui_getOperations.PNG.PNG">
+            getRib : 
+            <img src="src/screens/Part3/soapui/soapui_getRIB.PNG.PNG">
+            getSolde : 
+            <img src="src/screens/Part3/soapui/soapui_getSolde.PNG.PNG">
+            get releveWS : 
+            <img src="src/screens/Part3/soapui/soapui_releveWS.PNG.PNG">
         </li>
     </ul>
     </div>

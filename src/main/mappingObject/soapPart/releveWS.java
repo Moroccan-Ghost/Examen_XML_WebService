@@ -41,7 +41,6 @@ public class releveWS {
     }
 
     @WebMethod
-    /*TODO: CHECK THIS METHOD: DONE*/
     public Operations getCreditOperations(){
         Operations ops = new Operations();
         for (Operation operation : this.getOperations().getOperations()){
@@ -54,7 +53,6 @@ public class releveWS {
         return ops;
     }
     @WebMethod
-    /*TODO: CHECK THIS METHOD : DONE*/
     public Operations getDebitOperations(){
         Operations ops = new Operations();
         for (Operation operation : this.getOperations().getOperations()){
