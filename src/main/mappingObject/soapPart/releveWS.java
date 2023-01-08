@@ -41,25 +41,29 @@ public class releveWS {
     }
 
     @WebMethod
-    /*TODO: CHECK THIS METHOD*/
+    /*TODO: CHECK THIS METHOD: DONE*/
     public Operations getCreditOperations(){
         Operations ops = new Operations();
         for (Operation operation : this.getOperations().getOperations()){
-            if(operation.getType()=="CREDIT"){
+            if(operation.getType().equals("CREDIT")){
                 ops.AddOperations(operation);
             }
         }
+        ops.setDateDebut(this.releve.getOperations().getDateDebut());
+        ops.setDateFin(this.releve.getOperations().getDateFin());
         return ops;
     }
     @WebMethod
-    /*TODO: CHECK THIS METHOD*/
+    /*TODO: CHECK THIS METHOD : DONE*/
     public Operations getDebitOperations(){
         Operations ops = new Operations();
         for (Operation operation : this.getOperations().getOperations()){
-            if(operation.getType()=="DEBIT"){
+            if(operation.getType().equals("DEBIT")){
                 ops.AddOperations(operation);
             }
         }
+        ops.setDateDebut(this.releve.getOperations().getDateDebut());
+        ops.setDateFin(this.releve.getOperations().getDateFin());
         return ops;
     }
 
