@@ -34,3 +34,29 @@ Screens :
     </li>
 </ul>
 </div>
+<div>
+<h3>B. Partie Mapping Objet XML avec Jax Binding :</h3>
+<ul>
+    <li>
+       Q1 and Q2 : Operation && Operations && Releve all those class are <a href="src/main/mappingObject/operationServices">HERE</a>
+    </li>
+    <li>
+        Q3 : <a href="src/main/mappingObject/Serialize.java">Serialize</a> :
+        <img src="src/screens/Part2/Serialize.PNG">
+        Result : 
+        <img src="src/screens/Part2/Serialize_o.PNG">
+    </li>
+    <li>
+        Q4 : <a href="src/main/mappingObject/deserialize.java">Deserialize</a> :
+        <img src="src/screens/Part2/deserialize.PNG">
+        Result : 
+        <img src="src/screens/Part2/deserialize_o.PNG">
+    </li>
+    <li>
+        Q5 : <a href="src/main/mappingObject/generateSchema.java">GenerateSchema</a> :
+        <img src="src/screens/Part2/generateSchema.PNG">
+        Result : 
+        <img src="src/screens/Part2/generateSchema_o.PNG">
+    </li>
+</ul>
+</div>
