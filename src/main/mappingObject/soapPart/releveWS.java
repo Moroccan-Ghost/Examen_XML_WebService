@@ -20,6 +20,11 @@ public class releveWS {
     public releveWS() throws JAXBException {
     }
     @WebMethod
+
+    public ReleveService releveWS(){
+        return this.releve;
+    }
+    @WebMethod
     public String getRib(){
         return this.releve.getRib();
 
