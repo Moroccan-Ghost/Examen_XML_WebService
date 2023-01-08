@@ -84,8 +84,8 @@
             <img src="src/screens/Part3/client_test.PNG">
         </li>
         <li>
-            SOAPUI test : 
-            <img src="src/screens/Part3/soapui/soapui.PNG">
+            SOAPUI test : <br>
+            <img src="src/screens/Part3/soapui/soapui.PNG"><br>
             getOperations : 
             <img src="src/screens/Part3/soapui/soapui_getOperations.PNG">
             getRib : 
