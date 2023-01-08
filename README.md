@@ -87,13 +87,13 @@
             SOAPUI test : 
             <img src="src/screens/Part3/soapui/soapui.PNG">
             getOperations : 
-            <img src="src/screens/Part3/soapui/soapui_getOperations.PNG.PNG">
+            <img src="src/screens/Part3/soapui/soapui_getOperations.PNG">
             getRib : 
-            <img src="src/screens/Part3/soapui/soapui_getRIB.PNG.PNG">
+            <img src="src/screens/Part3/soapui/soapui_getRIB.PNG">
             getSolde : 
-            <img src="src/screens/Part3/soapui/soapui_getSolde.PNG.PNG">
+            <img src="src/screens/Part3/soapui/soapui_getSolde.PNG">
             get releveWS : 
-            <img src="src/screens/Part3/soapui/soapui_releveWS.PNG.PNG">
+            <img src="src/screens/Part3/soapui/soapui_releveWS.PNG">
         </li>
     </ul>
     </div>
