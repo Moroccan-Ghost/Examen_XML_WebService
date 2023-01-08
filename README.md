@@ -7,22 +7,30 @@ Screens :
 <ul>
     <li>
         DTD : 
-        <img src="src/screens/dtd.PNG">
+        <img src="src/screens/xml/dtd.PNG">
     </li>
     <li>
         XML valid by DTD : 
-        <img src="src/screens/xml_dtd.PNG">
-        <img src="src/screens/xml_dtd_web.PNG">
+        <img src="src/screens/xml/xml_dtd.PNG">
+        <img src="src/screens/xml/xml_dtd_web.PNG">
     </li>
     <li>
         XSD :
-        <img src="src/screens/xsd1.PNG">
-        <img src="src/screens/xsd2.PNG">
+        <img src="src/screens/xml/xsd1.PNG">
+        <img src="src/screens/xml/xsd2.PNG">
     </li>
     <li>
         XML valid by XSD : 
-        <img src="src/screens/xml_xsd.PNG">
-        <img src="src/screens/xml_xsd_web.PNG">
+        <img src="src/screens/xml/xml_xsd.PNG">
+        <img src="src/screens/xml/xml_xsd_web.PNG">
+    </li>
+    <li>
+        XSL:
+        <img src="src/screens/xml/xsl1.PNG">
+        <img src="src/screens/xml/xsl2.PNG">
+        <img src="src/screens/xml/xsl3.PNG">
+        <img src="src/screens/xml/xsl4.PNG">
+        <img src="src/screens/xml/xsl_web.PNG">
     </li>
 </ul>
 </div>
